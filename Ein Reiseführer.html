@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willkommen in Japan!</title>
+    <style>
+        body {
+            background-color: pink; /* Hintergrund in Pink */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        header, main, footer {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: darkred;
+        }
+
+        form {
+            background-color: #ffe6f0;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, button {
+            margin-top: 5px;
+        }
+
+        img {
+            margin: 10px 0;
+            max-width: 100%;
+            height: auto;
+        }
+
+        iframe {
+            margin: 10px 0;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Willkommen in Japan!</h1>
+        <p>Ein Reiseführer von: Mandy Gerdel</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <p>
+            Japan ist ein Land, in dem sich alte Traditionen nahtlos mit moderner Innovation verbinden.
+            Von den pulsierenden Straßen Tokios bis zu den friedlichen Tempeln Kyotos bietet Japan eine einzigartige Mischung aus Kultur, Technologie und natürlicher Schönheit.
+            Besucher können historische Shinto-Schreine erkunden, erstklassiges Sushi genießen oder im Frühling die atemberaubenden Kirschblüten bewundern.
+            Ob du mit dem Shinkansen (Hochgeschwindigkeitszug) fährst oder in einem traditionellen Onsen (Heiße Quelle) entspannst, Japan bietet jedem Reisenden ein unvergessliches Erlebnis.
+        </p>
+
+        <h2>Top-Aktivitäten:</h2>
+        <ul>
+            <li>Besuch des Mount Fuji</li>
+            <li>Erkundung der Shibuya-Kreuzung in Tokio</li>
+            <li>Sushi probieren in Osaka</li>
+            <li>Spaziergang durch die Tempel Kyotos</li>
+        </ul>
+
+        <!-- Bilder -->
+        <h2>Bilder von Japan</h2>
+        <img src="9b.jpg" alt="Mount Fuji mit See">
+        <img src="images.jpeg" alt="Shibuya Kreuzung in Tokio">
+
+        <!-- Externer Link -->
+        <p>
+            <a href="https://www.japan.travel/de/" target="_blank">Offizielle Visit Japan Webseite</a>
+        </p>
+
+        <!-- Reiseformular -->
+        <h2>Plan Dein Reiseformular:</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Dein Name">
+
+            <label>Bevorzugte Jahreszeit für den Besuch:</label>
+            <input type="radio" id="spring" name="season" value="Frühling">
+            <label for="spring">Frühling</label>
+
+            <input type="radio" id="summer" name="season" value="Sommer">
+            <label for="summer">Sommer</label>
+
+            <input type="radio" id="autumn" name="season" value="Herbst">
+            <label for="autumn">Herbst</label>
+
+            <input type="radio" id="winter" name="season" value="Winter">
+            <label for="winter">Winter</label>
+
+            <label for="budget">Reisebudget ($):</label>
+            <input type="number" id="budget" name="budget" min="100" max="10000">
+
+            <label for="preference">Reisepräferenz:</label>
+            <select id="preference" name="preference">
+                <option value="kultur">Kultur</option>
+                <option value="natur">Natur</option>
+                <option value="essen">Essen</option>
+                <option value="technik">Technologie</option>
+            </select>
+
+            <button type="submit">Absenden</button>
+        </form>
+
+        <!-- Extras -->
+        <h2>Video über Japan</h2>
+        <iframe
+            width="200"
+            height="150"
+            src="https://www.youtube.com/embed/IuTDuvYr7f0"
+            title="Japan Travel Guide"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+        <h2>Google Map von Tokio</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.912143152412!2d139.691706!3d35.689487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf0f6b8a91d%3A0x2b5d0c2d5a0b5d0c!2sTokyo!5e0!3m2!1sde!2sjp!4v1694259167890!5m2!1sde!2sjp"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mandy Gerdel - Dein Japan Blog</p>
+    </footer>
+
+</body>
+</html>
